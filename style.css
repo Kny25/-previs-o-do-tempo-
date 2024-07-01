@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://fastly.picsum.photos/id/229/1600/900.jpg?hmac=60lIQJGh74iwLBAbFCJQ2bDa_19aqu8nPeDPGVE6XYE");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.caixa-maior {
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 15px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 60px);
+}
+
+.img-buscar {
+    width: 20px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    border-radius: 50px;
+    float: right;
+}
+
+.caixa-media {
+    margin-top: 30px;
+
+}
+
+.cidade {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.temp {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texto-previsao {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #ffffff;
+    margin-top: 20px;
+}
